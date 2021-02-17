@@ -1,0 +1,14 @@
+.Tile{
+    min-height: 100px;
+
+    margin: 2%;
+    padding: 3%;
+
+    background-color: white;
+    border-radius: 20px;
+}
+
+.text{
+    position: relative;
+    padding-left: 15%;
+}
