@@ -1,5 +1,6 @@
 import './App.css';
-import Tile from './components/tile.jsx'
+import {ReactComponent as home} from './icon.svg';
+import Tile from './components/tile.jsx';
 
 function App() {
   return (
@@ -10,14 +11,22 @@ function App() {
           <h1>Name</h1>
           <h5>address</h5>
 
-          <a href="#"><i src=""></i> Link</a>
-          <a href="#"><i src=""></i> Link</a>
-          <a href="#"><i src=""></i> Link</a>
-          <a href="#"><i src=""></i> Link</a>
-          <a href="#"><i src=""></i> Link</a>
-          <a href="#"><i src=""></i> Link</a>
-          <a href="#"><i src=""></i> Link</a>
-          <a href="#"><i src=""></i> Link</a>
+          <h5>SubCategory</h5>
+          
+          <a href="#"><i class="fa fa-home"></i> Link</a>
+          <a href="#"><i class="fa fa-hashtag"></i> Link</a>
+          <a href="#"><i class="fa fa-user"></i> Link</a>
+
+          <h5>SubCategory</h5>
+
+          <a href="#"><i class="fa fa-comment"></i> Link</a>
+          <a href="#"><i class="fa fa-bookmark"></i> Link</a>
+          <a href="#"><i class="fa fa-bolt"></i> Link</a>
+
+          <h5>SubCategory</h5>
+
+          <a href="#"><i class="fa fa-list"></i> Link</a>
+          <a href="#"><i class="fa fa-group"></i> Link</a>
 
         </nav>
 
